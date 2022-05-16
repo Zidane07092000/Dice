@@ -7,30 +7,29 @@
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
 body {
-  background-color: #393E46;
+  background-color: #393e46;
 }
 
 h1 {
   margin: 30px;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
-  color: #4ECCA3;
+  color: #4ecca3;
 }
-h2{
+h2 {
   margin: 50px;
   font-size: 4rem;
   font-style: italic;
-  color:#4ECCA3;
+  color: #4ecca3;
 }
 p {
   font-size: 2rem;
-  color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
 }
 
 img {
@@ -39,8 +38,39 @@ img {
 
 footer {
   margin-top: 5%;
-  color: #EEEEEE;
+  color: #eeeeee;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
+}
 
+.click-button {
+  padding-top: 5%;
+}
+.btn {
+  /* height: 40px;
+  width: 100px; */
+  background: #f00e7b;
+  background-image: -webkit-linear-gradient(top, #f00e7b, #b0073f);
+  background-image: -moz-linear-gradient(top, #f00e7b, #b0073f);
+  background-image: -ms-linear-gradient(top, #f00e7b, #b0073f);
+  background-image: -o-linear-gradient(top, #f00e7b, #b0073f);
+  background-image: linear-gradient(to bottom, #f00e7b, #b0073f);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f05011;
+  background-image: -webkit-linear-gradient(top, #f05011, #731308);
+  background-image: -moz-linear-gradient(top, #f05011, #731308);
+  background-image: -ms-linear-gradient(top, #f05011, #731308);
+  background-image: -o-linear-gradient(top, #f05011, #731308);
+  background-image: linear-gradient(to bottom, #f05011, #731308);
+  text-decoration: none;
 }
